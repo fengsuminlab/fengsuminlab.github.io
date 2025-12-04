@@ -1384,7 +1384,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #1bd265;
+  background: #c296ff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2833,7 +2833,7 @@ h6 {
 }
 .header {
   background: #fff;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: none; /* Remove border */
 }
 .header-inner {
   width: 100%;
@@ -2867,6 +2867,10 @@ h6 {
   font-size: 1.2em;
   font-weight: 600;
   color: #37352f !important;
+  border-bottom: none;
+}
+.site-title:hover {
+  border-bottom: none;
 }
 .menu {
   margin-top: 10px;
@@ -2892,8 +2896,15 @@ h6 {
   color: #888;
   font-size: 0.9em;
   margin-top: 40px;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #e0e0e0; /* Keep top border for footer separation? User said title lines, maybe this is fine */
   padding-top: 20px;
+}
+.footer-inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: left;
 }
 a {
   color: #37352f;
