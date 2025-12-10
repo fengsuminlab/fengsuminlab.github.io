@@ -1236,7 +1236,7 @@ pre code {
   pointer-events: auto;
 }
 .menu-item-contact a {
-  background-color: #000 !important;
+  background-color: #0075de !important;
   color: #fff !important;
   font-weight: 500 !important;
   border-radius: 6px !important;
@@ -1290,7 +1290,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ecaf7e;
+  background: #5b2404;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
